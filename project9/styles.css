@@ -1,0 +1,201 @@
+body {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.container {
+    width: 1000px;
+    height: 700px;
+    background-color: hsl(270, 20%, 96%);
+}
+.shape{
+    background-image:linear-gradient(hsl(293, 100%, 63%),hsl(264, 100%, 61%)) ;
+    width:300px;
+    height: 450px;
+    border-bottom-left-radius: 75px ;
+    border-bottom-right-radius: 150px;
+}
+.phone {
+    width: 300px;
+    height: 600px;
+    background-color:hsl(0, 0%, 100%) ;
+    border-radius: 20px;
+    position: absolute;
+    top: 100px;
+    left: 250px;
+}
+@media (max-width:1024px) {
+    .phone {
+        left: 50px;
+    }
+}
+.header-1 {
+    background-image: linear-gradient(to left,hsl(293, 100%, 63%),hsl(264, 100%, 61%) );
+    margin-top: 10px;
+    width: 280px;
+    height: 60px;
+    margin-left: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+.phone-2 {
+    background-color: hsl(270, 20%, 96%);
+    width: 280px;
+    height: 500px;
+    margin-left: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+
+}
+.avatar {
+    border-radius: 100px;
+    width: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+img {
+    display: inline;
+    width: 50px;
+    border-radius: 20px;
+    padding: 5px;
+    margin-left : 5px;
+    margin-right: 0;
+    float: left ;
+
+}
+.dogs {
+    margin-left: 60px;
+    width: 200px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.chat-1 {
+    color: hsl(276, 55%, 52%);
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 200px;
+    font-size: 12px;
+    text-align: left;
+    padding: 5px;
+}
+.chat-2 {
+    color: hsl(276, 55%, 52%);
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 200px;
+    font-size: 12px;
+    text-align: left;
+    padding: 5px;
+}
+.chat-3 {
+    color: hsl(271, 15%, 43%);
+    margin-left: 60px;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 200px;
+    font-size: 12px;
+    text-align: left;
+    padding: 5px;
+}
+.chat-4 {
+    color: hsl(271, 15%, 43%);
+    margin-left: 140px;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 200px;
+    font-size: 12px;
+    text-align: left;
+    padding: 5px;
+}
+.chat-5 {
+    color: hsl(276, 55%, 52%);
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 200px;
+    font-size: 12px;
+    text-align: left;
+    padding: 5px;
+}
+.price-1 {
+    background-image: linear-gradient(to left,hsl(293, 100%, 63%),hsl(264, 100%, 61%) );
+    color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 200px;
+    font-size: 12px;
+    text-align: left;
+    padding: 5px;
+}
+.duration {
+    text-align: left;
+    opacity: 50%;
+}
+.price {
+    text-align: right;
+    width: 95%;
+    margin-top: -13px;
+    font-size: 15px;
+    font-weight: 700;
+}
+.price-2 {
+    background-image: linear-gradient(to left,hsl(293, 100%, 63%),hsl(264, 100%, 61%) );
+    color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 200px;
+    font-size: 12px;
+    text-align: left;
+    padding: 5px;
+}
+.input {
+    margin: 10px;
+    width: 200px;
+    margin-left: 20px;
+    height: 25px;
+    border-radius: 5px;
+    border-color: white;
+    border-style: none;
+}
+.header-2 {
+    color: white;
+    font-size: 12px;
+    padding-top: 15px;
+}
+.header-3 {
+    color: white;
+    margin-top: -10px;
+    font-size: 13px;
+}
+.side-text  {
+    position: absolute;
+    top: 200px;
+    left: 400px;
+    width: 400px;
+}
+@media (max-width:1024px) {
+    .side-text {
+        position: absolute;
+        left: 40px;
+        top:600px;
+    }
+}
+h1 {
+    font-size: 30px;
+    color: hsl(271, 36%, 24%);
+}
+.paragraph {
+    color: hsl(270, 7%, 64%);
+}
+@media (max-width:1024px) {
+    .paragraph {
+        margin-right: 100px;
+    }
+}

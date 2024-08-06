@@ -1,0 +1,36 @@
+body {
+    background-color:white;
+    font-family: Tahoma;
+    font-weight: 400, 700;
+    background-color: rgb(227, 239, 239);
+    min-width: 500px;
+}
+img {
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    margin: 10px ;
+}
+.container {
+    text-align: center;
+    height: auto;
+    width: 275px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 60px auto;
+}
+.bold {
+    font-weight: 700;
+    font-size: 15px;
+    padding: bottom 5px;;
+    margin-bottom: 0
+}
+.b2 {
+    color: grey;
+    font-size: 15px;
+    font-weight: 400px;
+    padding: 20px;
+    margin: 0;
+    
+}
+

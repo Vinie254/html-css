@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<Html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Survey Form</title>
+<link rel="stylesheet" href="style.css"> 
+  </head>
+  <body>
+<h1 id="title">Survey Form</h1>
+<p id="description">This is a project to build a survey form for the certification project of freecodecamp.org.It is done by Vincent Waweru ove the long holiday period.</p>
+<form id="survey-form" method="post">
+  <div class="container">
+          <fieldset>
+<label id="name-label">Name<input type="text" id="name" required placeholder="name" class="details"></label>
+<label id="email-label">Email<input type="email" id="email" required placeholder="email" class="details"></label> 
+<label id="number-label">Number<input type="number" id="number" required min="10" max="11" placeholder="number" class="details"></label>
+  </fieldset>
+  <fieldset>
+<label>
+ What is your current education level?
+  <select id="dropdown">
+<option>Please choose one</option>
+<option>Primary</option>
+<option>Secondary</option>
+<option>Tertiary</option>
+  </select>
+</label>
+<label>Employment Status:</label>
+<label><input type="radio" name="status" value="employed">Employed</label>
+<label><input type="radio" name="status" value="employed">Unemployed</label>
+</fieldset>
+  <fieldset>
+    <label>What are your hobbies</label>
+<label for="cooking"><input type="checkbox" id="cooking" name="hobbies" value="cooking">Cooking</label>
+<label for="Painting"><input type="checkbox" id="Painting" name="hobbies" value="Painting">Painting</label>
+<label for="Dancing"><input type="checkbox" id="Dancing" name="hobbies" value="Dancing">Dancing</label>
+  <label for="Comments">Comments</label>
+    <textarea id="Comments" placeholder="please leave a comment here"></textarea>
+    <input type="submit" id="submit" value="submit">
+  </fieldset>
+        </form>
+      </div>
+      </body>
+</Html>

@@ -1,0 +1,66 @@
+body {
+    background-color:  black ; 
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.container  {
+    display: block;
+    margin: auto;
+    background-color: hsl(0, 0%, 12%);
+    width: 500px;
+    height: 650px;
+    border-radius: 10px;
+}
+.name {
+    color:white;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+    margin-top: 0
+}
+.name2 {
+    color: hsl(75, 94%, 57%);
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 0;
+}
+.description {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+img {
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    padding: 30px 20px;  
+}
+.one {
+    display: block;
+    margin: auto;
+    width: 300px;
+    height: 35px;
+    color:white;
+    background-color:  hsl(0, 0%, 20%);
+    border-radius: 5px; 
+    padding: 10px;
+    margin-top: 15px;
+    border-style: none;
+}
+a {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+}
+.one:hover {
+    transform: scale(1.2);
+    background-color: gold;
+}

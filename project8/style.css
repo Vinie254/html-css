@@ -1,0 +1,29 @@
+body {
+    background-color: hsl(229, 57%, 11%);
+}
+.container-1 {
+    position: absolute;
+    left: 100px;
+    top: 250px;
+    background-color: hsl(228, 56%, 26%);
+    width: 300px;
+    height: 120px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 50px;
+}
+.logo   {
+    margin:25px;
+    margin-bottom: 40px;
+}
+.box   {
+    background-color: hsl(229, 57%, 11%);
+    display: inline-flex;
+    margin-left: -70px;
+    margin-top: 25px;
+    width: 30px;
+    height:25px;
+  
+
+}
